@@ -1,5 +1,5 @@
 {
-  "name": "vite-project",
+  "name": "matsuyanishimatsuya",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,6 +11,7 @@
     "prettier": "prettier --write src"
   },
   "dependencies": {
+    "@turf/turf": "^6.5.0",
     "maplibre-gl": "^3.3.1",
     "prettier": "^3.0.3",
     "react": "^18.2.0",
