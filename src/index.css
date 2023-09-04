@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&family=Noto+Sans+JP:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&family=Noto+Sans+JP:wght@500&display=swap");
 :root {
   color: #213547;
   background-color: #ffffff;
@@ -7,5 +7,5 @@
 
 body {
   margin: 0;
-  font-family: 'M PLUS 1', sans-serif;
+  font-family: "M PLUS 1", sans-serif;
 }

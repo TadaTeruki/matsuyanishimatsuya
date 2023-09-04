@@ -38,7 +38,7 @@ function Controller({ mapprops, resetMapFunc }) {
         }}
         disabled={submission != Submission.NONE}
       >
-        <div className="circle matsuya_circle"/>
+        <div className="circle matsuya_circle" />
         松屋が多い
       </button>
       <button
@@ -49,7 +49,7 @@ function Controller({ mapprops, resetMapFunc }) {
         }}
         disabled={submission != Submission.NONE}
       >
-        <div className="circle nishimatsuya_circle"/>
+        <div className="circle nishimatsuya_circle" />
         西松屋が多い
       </button>
       <div>
@@ -64,23 +64,24 @@ function Controller({ mapprops, resetMapFunc }) {
                 return <></>;
             }
           })()}
-          <p>
-        {submission != Submission.NONE &&
-          (function () {
-            switch (mapprops.answer) {
-              case Submission.MATSUYA:
-                return <div>松屋が多い</div>;
-              case Submission.NISHIMATSUYA:
-                return <div>西松屋が多い</div>;
-              default:
-                return <></>;
-            }
-          })()}
-        {submission != Submission.NONE && (
-          <div className="detail">
-            松屋: {mapprops.filteredMatsuya.length} 西松屋:{mapprops.filteredNishimatsuya.length}
-          </div>
-        )}
+        <p>
+          {submission != Submission.NONE &&
+            (function () {
+              switch (mapprops.answer) {
+                case Submission.MATSUYA:
+                  return <div>松屋が多い</div>;
+                case Submission.NISHIMATSUYA:
+                  return <div>西松屋が多い</div>;
+                default:
+                  return <></>;
+              }
+            })()}
+          {submission != Submission.NONE && (
+            <div className="detail">
+              松屋: {mapprops.filteredMatsuya.length} 西松屋:
+              {mapprops.filteredNishimatsuya.length}
+            </div>
+          )}
         </p>
       </div>
       {submission != Submission.NONE && (

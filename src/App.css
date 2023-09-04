@@ -1,47 +1,47 @@
 button {
-    background-color: #eee;
-    border: 0;
-    border-radius: 5px;
-    color: #333;
-    cursor: pointer;
-    font-size: 1rem;
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
-    transition: 0.2s;
+  background-color: #eee;
+  border: 0;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: 0.2s;
 }
 
 button:hover {
-    background-color: #ccc;   
+  background-color: #ccc;
 }
 
 button:disabled {
-    background-color: #eee;
-    color: #aaa;
+  background-color: #eee;
+  color: #aaa;
 }
 
 .circle {
-    border-radius: 50%;
-    display: inline-block;
-    height: 0.8rem;
-    width: 0.8rem;
-    margin: 0 0.2rem;
+  border-radius: 50%;
+  display: inline-block;
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0 0.2rem;
 }
 
 .matsuya_circle {
-    background-color: #e55;
+  background-color: #e55;
 }
 
 .nishimatsuya_circle {
-    background-color: #55e;
+  background-color: #55e;
 }
 
 .answer {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem;
 }
 
 .detail {
-    font-size: 0.8rem;
-    color: #888;
+  font-size: 0.8rem;
+  color: #888;
 }
