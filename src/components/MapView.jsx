@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Map, { Layer, Source, Marker } from "react-map-gl/maplibre";
 
-function View({ props, submitted }) {
+function MapView({ props, submitted }) {
   let [viewport, setViewport] = useState({
     latitude: props.latitude,
     longitude: props.longitude,
@@ -23,7 +23,7 @@ function View({ props, submitted }) {
       onViewportChange={(viewport) => {
         setViewport(viewport);
       }}
-      style={{ width: "100vw", height: "50vh" }}
+      style={{ width: "100vw", height: "45vh" }}
       mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
     >
       {submitted && (
@@ -82,4 +82,4 @@ function View({ props, submitted }) {
   );
 }
 
-export default View;
+export default MapView;

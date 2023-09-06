@@ -1,6 +1,6 @@
 import { point, circle, booleanPointInPolygon } from "@turf/turf";
 
-import Controller, { Submission } from "./Controller";
+import ControlPanel, { Submission } from "./Control";
 import { useState } from "react";
 
 function calculateCentroid(coordinatesArray) {
@@ -128,12 +128,12 @@ function Main({ data }) {
   return (
     <>
       <h1>松屋 vs 西松屋</h1>
-      <Controller
+      <ControlPanel
         mapprops={mapprops}
         resetMapFunc={() => {
           setMapprops(createMap(data));
         }}
-      ></Controller>
+      />
     </>
   );
 }

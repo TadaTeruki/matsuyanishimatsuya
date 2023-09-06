@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import View from "./View";
+import MapView from "./MapView";
 
 export const Submission = {
   NONE: 0,
@@ -14,7 +14,7 @@ const Result = {
   INCORRECT: 2,
 };
 
-function Controller({ mapprops, resetMapFunc }) {
+function ControlPanel({ mapprops, resetMapFunc }) {
   let [submission, setSubmission] = useState(0);
   let [result, setResult] = useState(Result.NONE);
 
@@ -28,7 +28,10 @@ function Controller({ mapprops, resetMapFunc }) {
 
   return (
     <>
-      <View props={mapprops} submitted={submission != Submission.NONE}></View>
+      <MapView
+        props={mapprops}
+        submitted={submission != Submission.NONE}
+      ></MapView>
       <p>範囲内に多いのは</p>
       <button
         onClick={() => {
@@ -99,4 +102,4 @@ function Controller({ mapprops, resetMapFunc }) {
   );
 }
 
-export default Controller;
+export default ControlPanel;
