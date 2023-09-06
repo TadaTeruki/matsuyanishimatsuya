@@ -1,8 +1,11 @@
-# React + Vite
+# 松屋 vs 西松屋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**https://matsuyanishimatsuya.pages.dev/**
 
-Currently, two official plugins are available:
+松屋と西松屋、多いのはどっちなのか
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+仁義なき戦いが幕を開ける
+
+## プレビュー
+
+![Screenshot from 2023-09-04 23-58-16](https://github.com/TadaTeruki/matsuyanishimatsuya/assets/69315285/cadd5005-3773-4a01-8db7-ca54ce30c25d)
