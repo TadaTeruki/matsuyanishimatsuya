@@ -45,3 +45,9 @@ button:disabled {
   font-size: 0.8rem;
   color: #888;
 }
+
+.credit {
+  font-size: 0.8rem;
+  color: #888;
+  font-weight: light;
+}

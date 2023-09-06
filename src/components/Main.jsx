@@ -134,6 +134,12 @@ function Main({ data }) {
           setMapprops(createMap(data));
         }}
       />
+      <p className="credit">
+        Source:{" "}
+        <a href="https://github.com/TadaTeruki/matsuyanishimatsuya">
+          https://github.com/TadaTeruki/matsuyanishimatsuya
+        </a>
+      </p>
     </>
   );
 }
